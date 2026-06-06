@@ -1,0 +1,29 @@
+{
+  "total_valid_rows": 7,
+  "total_anomalies": 8,
+  "total_revenue": 739.29,
+  "valid_orders": [
+    { "orderId": "ORD-001", "total": 179.10 },
+    { "orderId": "ORD-002", "total": 237.00 },
+    { "orderId": "ORD-003", "total": 42.49 },
+    { "orderId": "ORD-004", "total": 118.70 },
+    { "orderId": "ORD-008", "total": 39.96 },
+    { "orderId": "ORD-014", "total": 59.94 },
+    { "orderId": "ORD-015", "total": 99.50 }
+  ],
+  "anomalies": [
+    { "orderId": "ORD-005", "anomaly_type": "QUANTITY_ZERO" },
+    { "orderId": "ORD-006", "anomaly_type": "STATUS_INVALID" },
+    { "orderId": "ORD-007", "anomaly_type": "STATUS_INVALID" },
+    { "orderId": "ORD-009", "anomaly_type": "STATUS_INVALID" },
+    { "orderId": "ORD-010", "anomaly_type": "PRICE_MISSING" },
+    { "orderId": "ORD-011", "anomaly_type": "QUANTITY_NEGATIVE" },
+    { "orderId": "ORD-012", "anomaly_type": "QUANTITY_NON_INTEGER" },
+    { "orderId": "ORD-013", "anomaly_type": "STATUS_INVALID" }
+  ],
+  "large_orders": [
+    { "orderId": "ORD-004", "quantity": 5 },
+    { "orderId": "ORD-008", "quantity": 4 },
+    { "orderId": "ORD-014", "quantity": 6 }
+  ]
+}
