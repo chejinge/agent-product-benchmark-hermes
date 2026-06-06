@@ -1,0 +1,16 @@
+orderId,customer,product,quantity,unitPrice,discountRate,status,orderDate
+ORD-001,Alice Chen,Pro Kit,2,99.50,0.10,paid,2026-06-01
+ORD-002,Bob Smith,Starter Bundle,3,79.00,0.00,paid,2026-06-02
+ORD-003,Carol White,Widget,1,49.99,0.15,paid,2026-06-03
+ORD-004,David Brown,Sensor Pack,5,24.99,0.05,paid,2026-06-04
+ORD-005,Eve Black,Gadget,0,129.00,0.00,paid,2026-06-05
+ORD-006,Frank Lee,Cable Pack,2,15.99,0.00,pending,2026-06-01
+ORD-007,Grace Kim,Service Plan,1,199.00,0.20,paid,2026-03-01
+ORD-008,Henry Wang,Doodad,4,9.99,0.00,paid,2026-06-03
+ORD-009,Ivy Zhang,Pro Kit,3,99.50,0.10,refunded,2026-05-15
+ORD-010,Jack Liu,Sensor Pack,1,24.99,N/A,paid,2026-06-04
+ORD-011,Karen Lin,Widget,-1,49.99,0.00,paid,2026-06-05
+ORD-012,Leo Chen,Starter Bundle,2.5,79.00,0.05,paid,2026-06-02
+ORD-013,Mia Wu,Gadget,3,129.00,0.15,cancelled,2026-06-03
+ORD-014,Nick Rao,Doodad,6,9.99,0.00,paid,2026-06-04
+ORD-015,Olivia Sun,Pro Kit,1,99.50,0.00,paid,2026-06-05
